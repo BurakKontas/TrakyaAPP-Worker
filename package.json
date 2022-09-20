@@ -1,0 +1,16 @@
+{
+  "name": "my-worker",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "2.0.29"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "create-html": "^4.1.0"
+  }
+}
